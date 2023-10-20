@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Outfit:wght@400;700&family=Poppins:ital,wght@1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 1em;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 18px;
+  width: 375px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 4px;
+}
+.card img {
+  width: 100%;
+  border-radius: 15px;
+}
+.card {
+  padding: 1em;
+}
+.text {
+  padding: auto;
+}
+h2 {
+  color: hsl(218, 44%, 22%);
+  font-size: 22px;
+  font-weight: 700;
+}
+
+p {
+  color: hsl(220, 15%, 55%);
+  padding: 1.2em;
+  font-size: 15px;
+  font-weight: 400;
+}
